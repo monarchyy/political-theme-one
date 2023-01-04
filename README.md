@@ -14,14 +14,6 @@ Tailwind CSS Responsive View:
 
 ![App Screenshot](https://i.imgur.com/qTtrSOs.png)
 
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| primary | ![#0B7DC5](https://via.placeholder.com/10/0B7DC5?text=+) #0B7DC5 |
-| primaryLight | ![#2b8ecc](https://via.placeholder.com/10/2b8ecc?text=+) #2B8ECC |
-| secondary | ![#EC3F8C](https://via.placeholder.com/10/EC3F8C?text=+) #EC3F8C |
-
 ## Tech Stack
 
 **Client:** TailwindCSS
