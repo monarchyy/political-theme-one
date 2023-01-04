@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.6s 0s ease-in-out;
+    position: relative;
+}
+
+.hamburger-top, 
+.hamburger-mid,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: grey;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-mid {
+    transform: translateY(8px);
+}
+
+.hamburger-bottom {
+    transform: translateY(16px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-mid {
+    display:none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
